@@ -3,6 +3,7 @@ require File.expand_path(File.dirname(__FILE__) + "/../config/boot")
 Dir[File.expand_path(File.dirname(__FILE__) + "/../app/helpers/**/*.rb")].each(&method(:require))
 
 require 'database_cleaner'
+require 'pry'
 
 class MiniTest::Spec
   include Rack::Test::Methods
