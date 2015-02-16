@@ -11,7 +11,15 @@ describe "Books Controller" do
       params = {
         book:{
           title: "War & Peace",
-          isbn: '1234567889'
+          isbn: '1234567889',
+          chapters_attributes: {
+            "0" => {
+              title:"Chapter 1"
+            },
+            "1" => {
+              title:"Chapter 2"
+            }
+          }
         }
       }
       post '/books', params
@@ -25,6 +33,10 @@ describe "Books Controller" do
       book = Book.first
       book.title.must_equal "War & Peace"
       book.isbn.must_equal '1234567889'
+    end
+
+    it "should build chapters" do
+      Book.first.chapters.count.must_equal 2
     end
   end
 end

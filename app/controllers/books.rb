@@ -1,16 +1,32 @@
+require 'pry'
 ALittleBit::App.controllers :books do
+  layout :main
 
   get :index do
     200
   end
 
   get :new do
-    200
+    @book = Book.new
+    #binding.pry
+
+    # 20.times {
+    @book.chapters << Chapter.new
+    render :new
+    # render :'books/new'
   end
 
   post :create, :map => '' do
-   Book.create!(params[:book])
-   redirect url_for(:books, :index)
+  # chapter_attributes = params[:book].delete("chapter_attributes")
+
+   @book = Book.create!(params[:book])
+   # chapter_attributes.each do |index, chapter_values|
+   #    @book.chapters << Chapter.new(chapter_values)
+   #  end
+   # @book.chapters << Chapter.new(params[:book][:chapters_attributes])
+   #@book.save!
+
+   redirect url_for(:books, :new)
   end
 
   # get :index, :map => '/foo/bar' do

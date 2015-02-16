@@ -1,0 +1,25 @@
+<% form_for @book, url_for(:books, :create) do |f|%>
+
+  <% field_set_tag do %>
+    <%=f.label :title %>
+    <%=f.text_field :title %>
+  <% end %>
+
+  <% field_set_tag do %>
+    <%=f.label :isbn, :caption => "ISBN:" %>
+    <%=f.text_field :isbn %>
+  <% end %>
+
+  <h3>Chapters</h3>
+
+  <% field_set_tag :class=> "chapter-field" do %>
+    <%f.fields_for :chapters do |c| %>
+      <%=c.label :title %>
+      <%=c.text_field :title %>
+      <button id="button"> Add Chapter </button>
+    <% end %>
+  <% end %>
+
+  <%=f.submit "Save Book" %>
+
+<% end %>
