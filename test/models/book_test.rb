@@ -1,11 +1,7 @@
-require 'database_cleaner'
-
 require File.expand_path(File.dirname(__FILE__) + '/../test_config.rb')
 
 describe "Book Model" do
   before do
-    DatabaseCleaner.strategy = :truncation
-
     @book = Book.new(:title => "War & Piece", :isbn=> "1234567889")
     @book.chapters << Chapter.new(:title => "Chapter 1")
     @book.chapters.build(:title => "Chapter 2")
@@ -23,9 +19,4 @@ describe "Book Model" do
     @book.chapters.first.position.must_equal 0
     @book.chapters.second.position.must_equal 1
   end
-
-  after do
-    DatabaseCleaner.clean
-  end
-
 end
