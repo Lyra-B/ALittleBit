@@ -1,0 +1,197 @@
+
+
+/*Texture*/
+
+
+
+
+
+
+
+/*#div{
+  background-color:blue;
+  height:30px;
+  width:50px;
+}*/
+
+
+
+
+/*Media Queries*/
+/*320px/16=20*/
+
+
+
+
+
+
+
+
+/*#container{
+  width:1280;
+  height:1002;
+  margin: 0 auto;
+}
+
+
+#intro-line {
+  background:#52cbb3;
+  width:1280px;
+  /*width:100%;*/
+/*  height:12px;
+  margin-bottom: 13px;
+}
+
+#logo {
+  width:227px;
+  height:95px;
+/*  margin-left:160px;
+  margin-right:135px;*/
+/*  margin:0 135 0 160;
+  display:inline-block;
+  float:left;
+}
+
+#a-little {
+  width:130px;
+  height:46px;
+}
+
+nav {
+  width:360px;
+  height:23px;
+  display:inline-block;
+  margin:17 0 0 0;
+  font-size:20px;
+  padding:0;
+}
+
+#cart {
+  width:96px;
+  height:35px;
+  background:#a4a4a4;
+  border-radius:8; /*not possible to calculate?*/
+/*  float:right;
+  display:inline-block;
+  margin-top:0px;
+  margin-right:184px;
+  margin-left:122px;
+}
+
+nav li{
+  display:inline;
+  padding:0;
+}*/
+/*
+header{
+  clear:both;
+}*/
+
+/*main {
+  clear:both;
+  margin-left:160px;
+  margin-right:184px;
+}*/
+
+/*h1 {
+  display:block;
+  font-family: Arial bold;
+  font-size:50px;
+  margin-top:46px;
+  width:574px;
+  height:85px;*/
+  /*font-style:normal;
+/*}*/
+
+/*span {*/
+ /* font-style:normal; *//*why is this bold?*/
+/*}*/
+
+/*em {
+  font-family: "Times New Roman";
+  font-size:24px;
+  color:#087b25;
+}
+
+#summary{
+  display:block;
+  float:left;
+  background-color: #ffffff;
+}
+
+#first-paragraph {
+  font-size:20px;
+  font-family: Arial bold;
+}
+
+#second-paragraph{
+  font-family:Arial;
+  font-size:18px;
+}
+
+footer {
+  margin-right:184px;
+  clear:both;
+  float:right;
+}
+
+#paperback{
+  width:336px;
+  height:73px;
+  display:block;
+  clear:both;
+  border-radius:10;
+  background-color: #e5e5e5;
+  float:right;
+  margin-bottom:23px;
+}
+
+#ebook{
+  width:336px;
+  height:73px;
+  display:block;
+  border-radius:10;
+  background-color: #e5e5e5;
+  float:right;
+}
+
+button {
+  float:right;
+  width:70px;
+  height:40px;
+  background-color: #FB46CA;
+  border-radius:10;
+  font-family:Verdana;
+  font-style:normal;
+  font-size:18px;
+  color:#ffffff;
+}
+
+#paperback-ebook{
+  float:right;
+  width:341px;
+  height:168px;
+}
+
+.first{
+  float:left;
+  font-family:Verdana bold;
+  font-size:18px;
+  color:#545454;
+}
+
+.second{
+  float:left;
+  font-family:Verdana;
+  font-size:16px;
+  color:#545454;
+}
+
+footer{
+  margin-right:21px;
+  font-family:Verdana;
+  font-style:normal;
+  font-size:12px;
+}
+
+*/

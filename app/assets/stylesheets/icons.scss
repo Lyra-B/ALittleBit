@@ -1,0 +1,42 @@
+/*Icon*/
+
+.icon{
+  background-image:url('../assets/a-little-sprite_png8.png');
+  display:block;
+  background-repeat: no-repeat;
+  width:54px;
+}
+
+.icon--bulb{
+  height:70px;
+  background-position: 50% 0;
+  position:relative;
+}
+
+.icon--bulb:before {
+  content: "";
+  display:block;
+  width: 96px;
+  height: 96px;
+  border-radius: 96px;
+  position:absolute;
+  background-color: #fb46ca;
+  z-index:-1;
+  left:-20px;
+  top:-13px;
+}
+
+.icon-cart{
+  height:27px;
+  background-position: 50% -70px;
+}
+
+.icon-book{
+  height:54px;
+  background-position: 50% -98px;
+}
+
+.icon-tablet{
+  height:54px;
+  background-position: 50% -152px;
+}

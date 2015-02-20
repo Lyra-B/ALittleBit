@@ -1,0 +1,60 @@
+
+.responsive-image{
+  max-width:100%;
+}
+
+.responsive-logo{
+  max-width:25%;
+  height: auto !important;
+}
+
+.quote {
+  content:"”";
+}
+
+.quote:before{
+
+}
+
+#logo{
+  /*position:relative;*/
+}
+
+
+#a-little {
+  /*position:absolute;*/
+  width:130px;
+  height:46px;
+  /*margin-top:4.0em;*/
+  margin-left:6.0em;
+}
+
+#einstein {
+  width:91px;
+  height:119px;
+  border:3px solid #fb46ca;
+  /*display:inline-block;*/
+  /* border-color:#fb46ca;*/
+}
+
+#breakline{
+  border:3px solid #fb46ca;
+  height:3px;
+  width:100%;
+}
+
+.serif {
+  font-family: "Times", "Times New Roman", serif;
+}
+
+#quantity{
+  width:25px;
+  height:25px;
+  border-radius:25px;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

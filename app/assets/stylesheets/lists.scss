@@ -1,0 +1,12 @@
+/*Lists*/
+.zero-list{
+  list-style-type: none;
+}
+
+.inline-list {
+  list-style-type: none;
+}
+
+.inline-list > li {
+  display:inline;
+}

@@ -3,8 +3,11 @@ module ALittleBit
     use ConnectionPoolManagement
     register Padrino::Mailer
     register Padrino::Helpers
+    register Padrino::Sprockets
 
     enable :sessions
+
+    sprockets :minify => (Padrino.env == :production)
 
     ##
     # Caching support.

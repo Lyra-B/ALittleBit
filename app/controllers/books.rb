@@ -2,10 +2,6 @@ require 'pry'
 ALittleBit::App.controllers :books do
   layout :main
 
-  get :index do
-    200
-  end
-
   get :new do
     @book = Book.new
     #binding.pry
@@ -27,6 +23,16 @@ ALittleBit::App.controllers :books do
    #@book.save!
 
    redirect url_for(:books, :new)
+  end
+
+  get :index do
+    render :index
+  end
+
+  put :update do
+  end
+
+  delete :delete do
   end
 
   # get :index, :map => '/foo/bar' do

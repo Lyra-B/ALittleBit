@@ -31,6 +31,14 @@ gem 'rack', '<1.6.0'
 
 gem 'pry'
 
+gem 'padrino-sprockets'
+
+gem 'sass'
+
+gem 'uglifier'
+
+gem 'yui-compressor'
+
 # Or Padrino Edge
 # gem 'padrino', :github => 'padrino/padrino-framework'
 

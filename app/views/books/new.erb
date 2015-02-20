@@ -16,10 +16,11 @@
     <%f.fields_for :chapters do |c| %>
       <%=c.label :title %>
       <%=c.text_field :title %>
-      <button id="button"> Add Chapter </button>
+      <button class="button"> Add Chapter </button>
     <% end %>
   <% end %>
 
-  <%=f.submit "Save Book" %>
+  <%=f.submit "Save Book", :id => "submit" %>
 
 <% end %>
+
