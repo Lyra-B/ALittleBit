@@ -5,37 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="normalize.css" type="text/css">
   <link rel="stylesheet" href="index.css" type="text/css">
+
   <%= stylesheet_link_tag :normalize %>
   <%= stylesheet_link_tag :application %>
 </head>
 <body>
-    <header role="banner" class="grid clearfix centered">
-      <div id="logo" class="responsive-logo">
-        <div class="[ smart-col-1-4 ] [ tab-col-1-6 ] [ col-2-8 block ]">
-          <a href="/books/home">
-            <span class="icon icon--bulb mt ml"></span>
-            <img id="a-little" src="assets/a_little_bit.png" alt= "A little bit"/>
-          </a>
-        </div>
-      </div>
-      <nav class=" [ col-offset-3 ] [ smart-both ] mt" role="navigation">
-        <ul class="zero-list inline-list uppercase ">
-          <li class = "mr"><a class="black" href=""><!-- <span>Link to the sites</span> -->HOME</a></li>
-          <li class = "mr"><a class="black" href="">SHOP</a></li>
-          <li class = "mr"><a class="black" href="">PRESS</a></li>
-          <li class = "mr"><a class="black" href="">ABOUT</a></li>
-          <li class = "mr"><a class="black" href="">HELP</a></li>
-        </ul>
-      </nav>
-      <div id="cart">
-        <div class="[ tab-col-offset-4 tab-col-2-6 ] [smart-col-2-4 smart-col-offset-3 ] [ col-offset-7 col-1-8 ] border bg--dark-neutral mt-zero ">
-          <span  id="quantity" class="border bg--light-neutral  block m-micro pt-small pb-small t-text-center left line-height">0</span>
-          <span class="icon icon-cart right mt-small mb-micro"><span>
-        <!--     smart-both -->
-        </div>
-      </div>
-    </header>
-
     <main class="both grid centered">
       <h1 class="serif"><span class="mb block" >A Little Bit of <span>Knowledge</span></span> <em class= "block t--lg brand-02">by Albert Einstein</em> </h1>
       <div = "images">
@@ -79,7 +53,7 @@
           <p>Paperback:</p>
           <p>154 pages</p>
         </li>
-        <li class="t--color p-small clearfix mt">
+        <li class="t--color p-small clearfix mt brd-bot">
           <h3 class="t--lg t-bold">About the Author<h3>
           <div id="einstein"><img src="assets/einstein.jpeg" alt="Albert Einstein" width="87px" height:"114px"/></div>
           <div id="einstein-info">
@@ -93,24 +67,12 @@
       <div id="breakline brand both">
       </div>
       <!-- <hr id="breakline"> -->
-      <div id="quoted" class="both">
+      <div id="comments" class="both m-large">
         <h3>What people are saying</h3>
         <p><span class="t--xl t--color-2 quote"></span>When the poet Paul Valery once asked Albert Einstein if he kept a notebook to record his ideas, Einstein looked at him with mild but genuine surprise. "Oh, that's not necessary," he replied . "It's so seldom I have one.</p>
         <p>Bill Bryson</p>
       </div>
     </main>
-
-    <footer role="content-info" class="both grid centered clearfix">
-        <small class="right p smart-both" itemscope itemtype="http://schema.org/Organization">
-        <span>
-          <span itemprop="name">A Little Bit</span>
-          <sup class="txt-xs">TM</sup>
-        </span>
-        Tel:<span itemprop="telephone">0207 804 1963</span>,
-        E-mail: <span itemprop="email">seeus@alittlebit.com</span>
-        <small>&copy; A little Bit <sup class="txt-xs">TM</sup> 2015 </small>
-      </small>
-    </footer>
    <!--  <footer>
       <small class="col-offset-5 both">A little Bit &#8482;    Tel:0207 804 1963   Email:seeus@alittlebit.com   &copy A little Bit &#8482; 2015</small>
     </footer> -->
