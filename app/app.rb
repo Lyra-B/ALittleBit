@@ -9,6 +9,28 @@ module ALittleBit
 
     sprockets :minify => (Padrino.env == :production)
 
+    layout :main
+
+    get "/" do
+      render :homepage
+    end
+
+    get :shop do
+      render :shop
+    end
+
+    get :press do
+      render :press
+    end
+
+    get :about do
+      render :about
+    end
+
+    get :help do
+      render :help
+    end
+
     ##
     # Caching support.
     #

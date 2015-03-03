@@ -1,9 +1,14 @@
 <html>
 <head>
-  <title></title>
+  <meta charset="UTF-8">
+  <title>A Little Bit</title>
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--   <link rel="stylesheet" href="normalize.css" type="text/css">
+  <link rel="stylesheet" href="index.css" type="text/css"> -->
+  <%= stylesheet_link_tag :normalize %>
   <%= stylesheet_link_tag :application %>
   <%= javascript_include_tag :cloning %>
-  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 </head>
 <body>
   <header role="banner" class="grid clearfix centered">
@@ -11,17 +16,17 @@
         <div class="[ smart-col-1-4 ] [ tab-col-1-6 ] [ col-2-8 block ]">
           <a href="/books/home">
             <span class="icon icon--bulb mt ml"></span>
-            <img id="a-little" src="assets/a_little_bit.png" alt= "A little bit"/>
+            <img id="a-little" src="/assets/a_little_bit.png" alt= "A little bit"/>
           </a>
         </div>
       </div>
       <nav class=" [ col-offset-3 ] [ smart-col-4-4 smart-both ] [tab-col-offset-1 tab-both] mt" role="navigation">
         <ul class="zero-list inline-list uppercase ">
-          <li class = "mr"><a class="black" href=""><!-- <span>Link to the sites</span> -->HOME</a></li>
-          <li class = "mr"><a class="black" href="">SHOP</a></li>
-          <li class = "mr"><a class="black" href="">PRESS</a></li>
-          <li class = "mr"><a class="black" href="">ABOUT</a></li>
-          <li class = "mr"><a class="black" href="">HELP</a></li>
+          <li class = "mr"><a class="black" href="/"><!-- <span>Link to the sites</span> -->HOME</a></li>
+          <li class = "mr"><a class="black" href="/shop">SHOP</a></li>
+          <li class = "mr"><a class="black" href="/press">PRESS</a></li>
+          <li class = "mr"><a class="black" href="/about">ABOUT</a></li>
+          <li class = "mr"><a class="black" href="/help">HELP</a></li>
         </ul>
       </nav>
       <div id="cart">
