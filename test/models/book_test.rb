@@ -11,7 +11,6 @@ describe "Book Model" do
   it 'can construct a new instance' do
     Book.count.must_equal 1
     Chapter.count.must_equal 2
-    # refute_nil @book
   end
 
   it "should allocate the position automatically" do

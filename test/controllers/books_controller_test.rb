@@ -2,7 +2,7 @@ require_relative '../test_config'
 
 describe "Books Controller" do
   it "should show a new form to fill a book in" do
-    get '/new'
+    get '/books/new'
     last_response.status.must_equal 200
   end
 
