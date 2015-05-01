@@ -40,3 +40,31 @@
   height:54px;
   background-position: 50% -152px;
 }
+
+.icon--sm {
+  background-image:url('../assets/icons.png');
+  display:block;
+  background-repeat: no-repeat;
+  display:inline-block
+}
+
+.icon--fb {
+  background-position: 70% 0;
+  height:46px;
+  width:24px;
+}
+
+.icon--twitter{
+  height:38px;
+  width:30px;
+}
+
+.icon--pint{
+  width:37px;
+  height:45px;
+}
+
+.icon--gglpls{
+  width:43px;
+  height:42px;
+}
