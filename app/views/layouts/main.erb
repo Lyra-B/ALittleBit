@@ -41,8 +41,13 @@
   <%=yield%>
   <main>
   <footer role="content-info" class="both grid centered clearfix">
-    <small class="right p smart-both" itemscope itemtype="http://schema.org/Organization">
+    <div id="footer" class="bg--neutral">
+    <small class="bg--neutral block right p smart-both" itemscope itemtype="http://schema.org/Organization">
       <span>
+        <span class="icon--sm icon--fb mt ml"></span>
+        <span class="icon--sm icon--twitter mt ml"></span>
+        <span class="icon--sm icon--gglpls mt ml"></span>
+        <span class="icon--sm icon--pint mt ml"></span>
         <span itemprop="name">A Little Bit</span>
         <sup class="txt-xs">TM</sup>
       </span>
@@ -50,6 +55,7 @@
       E-mail: <span itemprop="email">seeus@alittlebit.com</span>
       <small>&copy; A little Bit <sup class="txt-xs">TM</sup> 2015 </small>
     </small>
+  </div>
   </footer>
 
 </body>
