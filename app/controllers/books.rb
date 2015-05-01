@@ -4,12 +4,8 @@ ALittleBit::App.controllers :books do
 
   get :new do
     @book = Book.new
-    #binding.pry
-
-    # 20.times {
     @book.chapters << Chapter.new
     render :new
-    # render :'books/new'
   end
 
   post :create, :map => '' do
